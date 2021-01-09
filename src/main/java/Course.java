@@ -33,12 +33,19 @@ public class Course {
             if (model.getID() == 292) {
                 model.setEUR(obj.getDouble("Cur_OfficialRate"));
             }
+            if (model.getID() == 298) {
+                model.setRUB(obj.getDouble("Cur_OfficialRate"));
+            }
+            if (model.getID() == 293) {
+                model.setPLN(obj.getDouble("Cur_OfficialRate"));
+            }
 
         }
 
-
         return "USD: " + model.getUSD() + "\n" +
-                "EUR: " + model.getEUR() + "\n";
+                "EUR: " + model.getEUR() + "\n" +
+                "100 RUB: " + model.getRUB() + "\n" +
+                "10 PLN: " + model.getPLN();
     }
 
 

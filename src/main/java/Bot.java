@@ -17,7 +17,7 @@ import java.util.List;
 public class Bot extends TelegramLongPollingBot {
 
 
-    public static void main(String[] args) throws IOException, InterruptedException {
+    public static void main(String[] args)  {
         ApiContextInitializer.init();
         TelegramBotsApi bot = new TelegramBotsApi();
 

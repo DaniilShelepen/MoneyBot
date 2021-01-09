@@ -2,7 +2,25 @@ public class Model {
 
     private double USD;
     private double EUR;
+    private double RUB;
+    private double PLN;
     private int ID;
+
+    public double getPLN() {
+        return PLN;
+    }
+
+    public void setPLN(double PLN) {
+        this.PLN = PLN;
+    }
+
+    public double getRUB() {
+        return RUB;
+    }
+
+    public void setRUB(double RUB) {
+        this.RUB = RUB;
+    }
 
     public double getUSD() {
         return USD;
