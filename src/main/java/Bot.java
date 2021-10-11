@@ -139,10 +139,10 @@ public class Bot extends TelegramLongPollingBot {
     }
 
     public String getBotUsername() {
-        return "BelarusMoneyBot";
+        return "name";
     }
 
     public String getBotToken() {
-        return "1361786282:AAEM7QZyEKHMhbsc-qwFaVT4bKQ6J5P9E1g";
+        return "token";
     }
 }
